@@ -3,7 +3,10 @@ public class mainTubeVideo {
     {
         SayaTubeVideo a = new SayaTubeVideo("Tutorial Design By Contract – Ahmad Naufal Diwantara Putra");
         a.PrintVideoDetails();
-        a.IncreasePlayCount(0);
+        for (int i = 0; i < 1; i++)
+        {
+            a.IncreasePlayCount(0);
+        }
         a.PrintVideoDetails();
     }
 }
